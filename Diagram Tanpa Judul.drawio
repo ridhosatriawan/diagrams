@@ -1,14 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T05:42:23.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="MpR_UCalhc4SvIQHy3m8" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-16T06:08:59.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="npxwLtze1k_dOSKzdcnc" version="20.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="599" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="723" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="ilKIDcpZkOctN-f81Po_-0" value="User" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="170" width="200" height="200" as="geometry" />
+        <mxCell id="ilKIDcpZkOctN-f81Po_-0" value="tbl_user" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="160" width="160" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="ilKIDcpZkOctN-f81Po_-2" value="id_user&lt;br&gt;nim&lt;br&gt;password&lt;br&gt;nama&lt;br&gt;angkatan&lt;br&gt;status" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ilKIDcpZkOctN-f81Po_-0">
-          <mxGeometry x="10" y="25" width="70" height="100" as="geometry" />
+        <mxCell id="ilKIDcpZkOctN-f81Po_-2" value="id_user&lt;br&gt;nim&lt;br&gt;password&lt;br&gt;nama&lt;br&gt;angkatan&lt;br&gt;status" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ilKIDcpZkOctN-f81Po_-0">
+          <mxGeometry y="25" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ilKIDcpZkOctN-f81Po_-9" value="tbl_pemilihan" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="160" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ilKIDcpZkOctN-f81Po_-11" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_pemilihan&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_user&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_paslon&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;judul_pemilihan&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;waktu_akhir&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ilKIDcpZkOctN-f81Po_-9">
+          <mxGeometry y="25" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ilKIDcpZkOctN-f81Po_-10" value="tbl_paslon" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="160" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ilKIDcpZkOctN-f81Po_-12" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_paslon&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_pemilihan&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nama_ketua&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nama_wakil&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;foto_paslon&lt;/div&gt;&lt;div style=&quot;&quot;&gt;deskripsi&lt;/div&gt;&lt;div style=&quot;&quot;&gt;jumlah_suara&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ilKIDcpZkOctN-f81Po_-10">
+          <mxGeometry y="25" width="100" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
